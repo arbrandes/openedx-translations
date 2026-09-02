@@ -161,6 +161,21 @@ msgstr ""
 msgid "Specifies whether data sharing consent page is published."
 msgstr ""
 
+#: enterprise_learner_portal/api/v1/serializers.py:40
+msgid ""
+"To use this EnterpriseCourseEnrollmentSerializer, this package must be "
+"installed in an Open edX environment."
+msgstr ""
+
+#: enterprise_learner_portal/api/v1/views.py:69
+#: enterprise_learner_portal/api/v1/views.py:132
+#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:500
+#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:554
+msgid ""
+"To use this endpoint, this package must be installed in an Open edX "
+"environment."
+msgstr ""
+
 #: integrated_channels/canvas/models.py:112
 msgid ""
 "Account number to use during api calls. Called account_id in canvas.  "
@@ -249,11 +264,11 @@ msgstr ""
 msgid "If checked, subjects will not be sent to Cornerstone"
 msgstr ""
 
-#: integrated_channels/cornerstone/models.py:311
+#: integrated_channels/cornerstone/models.py:306
 msgid "This is the edX course key that is used as a unique identifier."
 msgstr ""
 
-#: integrated_channels/cornerstone/models.py:318
+#: integrated_channels/cornerstone/models.py:313
 msgid "This is the course key that is being sent to our partners."
 msgstr ""
 
@@ -399,7 +414,7 @@ msgid ""
 msgstr ""
 
 #: integrated_channels/integrated_channel/models.py:537
-#: integrated_channels/integrated_channel/models.py:718
+#: integrated_channels/integrated_channel/models.py:713
 msgid "Data pertaining to the transmissions API request response."
 msgstr ""
 
@@ -457,7 +472,7 @@ msgstr ""
 
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:223
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:298
-#: enterprise/views.py:1608
+#: enterprise/views.py:1604
 msgid "Starts"
 msgstr ""
 
@@ -572,31 +587,31 @@ msgstr ""
 msgid "Course enrollment track"
 msgstr ""
 
-#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1642
+#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1629
 msgid "Audit"
 msgstr ""
 
-#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1643
+#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1630
 msgid "Verified"
 msgstr ""
 
-#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1644
+#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1631
 msgid "Professional Education"
 msgstr ""
 
-#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1645
+#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1632
 msgid "Professional Education (no ID)"
 msgstr ""
 
-#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1646
+#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1633
 msgid "Credit"
 msgstr ""
 
-#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1647
+#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1634
 msgid "Honor"
 msgstr ""
 
-#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1648
+#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1635
 msgid "Unpaid Executive Education"
 msgstr ""
 
@@ -760,17 +775,17 @@ msgid ""
 "they will be enrolled automatically: {pending_email_list}"
 msgstr ""
 
-#: enterprise/admin/views.py:919
+#: enterprise/admin/views.py:912
 #, python-brace-format
 msgid "Email {email} is not associated with Enterprise Customer {ec_name}"
 msgstr ""
 
-#: enterprise/admin/views.py:983
+#: enterprise/admin/views.py:976
 msgid ""
 "Successfully written the \"Auth org id\" field for this enterprise customer."
 msgstr ""
 
-#: enterprise/api/utils.py:357
+#: enterprise/api/utils.py:97
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested {token_number_codes} additional codes. Please reach out to them.\n"
@@ -778,14 +793,14 @@ msgid ""
 "{token_notes}."
 msgstr ""
 
-#: enterprise/api/utils.py:364
+#: enterprise/api/utils.py:104
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested "
 "{token_number_codes} additional codes. Please reach out to them."
 msgstr ""
 
-#: enterprise/api/utils.py:370
+#: enterprise/api/utils.py:110
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. Please reach out to them.\n"
@@ -793,26 +808,26 @@ msgid ""
 "{token_notes}."
 msgstr ""
 
-#: enterprise/api/utils.py:376
+#: enterprise/api/utils.py:116
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. "
 "Please reach out to them."
 msgstr ""
 
-#: enterprise/api/v1/serializers.py:96
+#: enterprise/api/v1/serializers.py:95
 msgid "Total count of items."
 msgstr ""
 
-#: enterprise/api/v1/serializers.py:97
+#: enterprise/api/v1/serializers.py:96
 msgid "URL to fetch next page of items."
 msgstr ""
 
-#: enterprise/api/v1/serializers.py:98
+#: enterprise/api/v1/serializers.py:97
 msgid "URL to fetch previous page of items."
 msgstr ""
 
-#: enterprise/api/v1/serializers.py:99
+#: enterprise/api/v1/serializers.py:98
 msgid "List of items."
 msgstr ""
 
@@ -850,17 +865,8 @@ msgid ""
 "Catalog: {catalog_id}"
 msgstr ""
 
-#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:500
-#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:554
-#: enterprise_learner_portal/api/v1/views.py:69
-#: enterprise_learner_portal/api/v1/views.py:132
-msgid ""
-"To use this endpoint, this package must be installed in an Open edX "
-"environment."
-msgstr ""
-
 #: enterprise/api_client/discovery.py:60
-#: enterprise/api_client/discovery.py:399 enterprise/utils.py:1642
+#: enterprise/api_client/discovery.py:399 enterprise/utils.py:1638
 msgid ""
 "To get a CatalogIntegration object, this package must be installed in an "
 "Open edX environment."
@@ -945,7 +951,7 @@ msgid ""
 "{enterprise_customer_name}."
 msgstr ""
 
-#: enterprise/constants.py:92
+#: enterprise/constants.py:86
 msgid ""
 "A series of Master’s-level courses to advance your career, created by top "
 "universities and recognized by companies. MicroMasters Programs are credit-"
@@ -953,7 +959,7 @@ msgid ""
 "Master’s Degree."
 msgstr ""
 
-#: enterprise/constants.py:98
+#: enterprise/constants.py:92
 msgid ""
 "Designed by industry leaders and top universities to enhance professional "
 "skills, Professional Certificates develop the proficiency and expertise that"
@@ -961,7 +967,7 @@ msgid ""
 "education."
 msgstr ""
 
-#: enterprise/constants.py:104
+#: enterprise/constants.py:98
 msgid ""
 "Created by world-renowned experts and top universities, XSeries are designed"
 " to provide a deep understanding of key subjects through a series of "
@@ -1063,7 +1069,7 @@ msgstr ""
 msgid "Specifies enterprise customer type."
 msgstr ""
 
-#: enterprise/models.py:215 enterprise/models.py:3405
+#: enterprise/models.py:215 enterprise/models.py:3382
 msgid "Enterprise Customer"
 msgstr ""
 
@@ -1291,86 +1297,86 @@ msgstr ""
 msgid "Enterprise Customer Learners"
 msgstr ""
 
-#: enterprise/models.py:1739
+#: enterprise/models.py:1722
 msgid "Logo images must be in .png format."
 msgstr ""
 
-#: enterprise/models.py:1766
+#: enterprise/models.py:1749
 msgid "Branding Configuration"
 msgstr ""
 
-#: enterprise/models.py:1767
+#: enterprise/models.py:1750
 msgid "Branding Configurations"
 msgstr ""
 
-#: enterprise/models.py:1855
+#: enterprise/models.py:1832
 msgid "Specifies whether this is default provider for enterprise customer."
 msgstr ""
 
-#: enterprise/models.py:1940
+#: enterprise/models.py:1917
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr ""
 
-#: enterprise/models.py:1950
+#: enterprise/models.py:1927
 msgid "The enterprise learner to which this entitlement is attached."
 msgstr ""
 
-#: enterprise/models.py:2073
+#: enterprise/models.py:2050
 msgid "The enterprise learner to which this enrollment is attached."
 msgstr ""
 
-#: enterprise/models.py:2080
+#: enterprise/models.py:2057
 msgid "The ID of the course in which the learner was enrolled."
 msgstr ""
 
-#: enterprise/models.py:2087
+#: enterprise/models.py:2064
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
 msgstr ""
 
-#: enterprise/models.py:2103
+#: enterprise/models.py:2080
 msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
 msgstr ""
 
-#: enterprise/models.py:2113
+#: enterprise/models.py:2090
 msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
 msgstr ""
 
-#: enterprise/models.py:2371
+#: enterprise/models.py:2348
 msgid "The course entitlement the associated subsidy is for."
 msgstr ""
 
-#: enterprise/models.py:2382
+#: enterprise/models.py:2359
 msgid "The course enrollment the associated subsidy is for."
 msgstr ""
 
-#: enterprise/models.py:2389
+#: enterprise/models.py:2366
 msgid ""
 "Whether the enterprise subsidy is revoked, e.g., when a user's license is "
 "revoked."
 msgstr ""
 
-#: enterprise/models.py:2550
+#: enterprise/models.py:2527
 msgid "The customer for which this default enrollment will be realized."
 msgstr ""
 
-#: enterprise/models.py:2559
+#: enterprise/models.py:2536
 msgid "The type of content (e.g. a course vs. a course run)."
 msgstr ""
 
-#: enterprise/models.py:2567
+#: enterprise/models.py:2544
 msgid ""
 "A course or course run that related users should be automatically enrolled "
 "into."
 msgstr ""
 
-#: enterprise/models.py:2739
+#: enterprise/models.py:2716
 #, python-brace-format
 msgid ""
 "A default enrollment intention with this enterprise customer and content key"
@@ -1378,11 +1384,11 @@ msgid ""
 "href=\"{existing_record_admin_url}\">here</a>."
 msgstr ""
 
-#: enterprise/models.py:2754
+#: enterprise/models.py:2731
 msgid "The content key did not resolve to a valid course run."
 msgstr ""
 
-#: enterprise/models.py:2822
+#: enterprise/models.py:2799
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a JSON object. An empty JSON "
@@ -1390,7 +1396,7 @@ msgid ""
 "catalog.  Must be unique."
 msgstr ""
 
-#: enterprise/models.py:2837
+#: enterprise/models.py:2814
 msgid ""
 "Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
 "This means that, when the content_filter specifies that 'course' content "
@@ -1398,15 +1404,15 @@ msgid ""
 " won't be excluded from the content of the associated catalog."
 msgstr ""
 
-#: enterprise/models.py:2844
+#: enterprise/models.py:2821
 msgid "Enterprise Catalog Query"
 msgstr ""
 
-#: enterprise/models.py:2845
+#: enterprise/models.py:2822
 msgid "Enterprise Catalog Queries"
 msgstr ""
 
-#: enterprise/models.py:2958
+#: enterprise/models.py:2935
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a Json object. An empty Json "
@@ -1414,33 +1420,33 @@ msgid ""
 "catalog."
 msgstr ""
 
-#: enterprise/models.py:2966
+#: enterprise/models.py:2943
 msgid ""
 "Ordered list of enrollment modes which can be displayed to learners for "
 "course runs in this catalog."
 msgstr ""
 
-#: enterprise/models.py:2972
+#: enterprise/models.py:2949
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
 msgstr ""
 
-#: enterprise/models.py:2979
+#: enterprise/models.py:2956
 msgid "Enterprise Customer Catalog"
 msgstr ""
 
-#: enterprise/models.py:2980 enterprise/models.py:3527
+#: enterprise/models.py:2957 enterprise/models.py:3504
 msgid "Enterprise Customer Catalogs"
 msgstr ""
 
-#: enterprise/models.py:3247
+#: enterprise/models.py:3224
 msgid ""
 "Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
 msgstr ""
 
-#: enterprise/models.py:3265
+#: enterprise/models.py:3242
 #, python-brace-format
 msgid ""
 "Enter a string that can be used to generate a dynamic subject line for "
@@ -1448,193 +1454,193 @@ msgid ""
 " name of the course or program that was enrolled in."
 msgstr ""
 
-#: enterprise/models.py:3407
+#: enterprise/models.py:3384
 msgid "Active"
 msgstr ""
 
-#: enterprise/models.py:3408
+#: enterprise/models.py:3385
 msgid "Include Date"
 msgstr ""
 
-#: enterprise/models.py:3409
+#: enterprise/models.py:3386
 msgid "Include date in the report file name"
 msgstr ""
 
-#: enterprise/models.py:3415
+#: enterprise/models.py:3392
 msgid "Delivery Method"
 msgstr ""
 
-#: enterprise/models.py:3416
+#: enterprise/models.py:3393
 msgid "The method in which the data should be sent."
 msgstr ""
 
-#: enterprise/models.py:3421
+#: enterprise/models.py:3398
 msgid ""
 "Specifies whether report should be compressed. Without compression files "
 "will not be password protected or encrypted."
 msgstr ""
 
-#: enterprise/models.py:3428
+#: enterprise/models.py:3405
 msgid "PGP Encryption Key"
 msgstr ""
 
-#: enterprise/models.py:3429
+#: enterprise/models.py:3406
 msgid "The key for encryption, if PGP encrypted file is required."
 msgstr ""
 
-#: enterprise/models.py:3437
+#: enterprise/models.py:3414
 msgid "Data Type"
 msgstr ""
 
-#: enterprise/models.py:3438
+#: enterprise/models.py:3415
 msgid "The type of data this report should contain."
 msgstr ""
 
-#: enterprise/models.py:3445
+#: enterprise/models.py:3422
 msgid "Report Type"
 msgstr ""
 
-#: enterprise/models.py:3446
+#: enterprise/models.py:3423
 msgid "The type this report should be sent as, e.g. CSV."
 msgstr ""
 
-#: enterprise/models.py:3450
+#: enterprise/models.py:3427
 msgid "Email"
 msgstr ""
 
-#: enterprise/models.py:3451
+#: enterprise/models.py:3428
 msgid "The email(s), one per line, where the report should be sent."
 msgstr ""
 
-#: enterprise/models.py:3458
+#: enterprise/models.py:3435
 msgid "Frequency"
 msgstr ""
 
-#: enterprise/models.py:3459
+#: enterprise/models.py:3436
 msgid ""
 "The frequency interval (daily, weekly, or monthly) that the report should be"
 " sent."
 msgstr ""
 
-#: enterprise/models.py:3464
+#: enterprise/models.py:3441
 msgid "Day of Month"
 msgstr ""
 
-#: enterprise/models.py:3465
+#: enterprise/models.py:3442
 msgid ""
 "The day of the month to send the report. This field is required and only "
 "valid when the frequency is monthly."
 msgstr ""
 
-#: enterprise/models.py:3473
+#: enterprise/models.py:3450
 msgid "Day of Week"
 msgstr ""
 
-#: enterprise/models.py:3474
+#: enterprise/models.py:3451
 msgid ""
 "The day of the week to send the report. This field is required and only "
 "valid when the frequency is weekly."
 msgstr ""
 
-#: enterprise/models.py:3478
+#: enterprise/models.py:3455
 msgid "Hour of Day"
 msgstr ""
 
-#: enterprise/models.py:3479
+#: enterprise/models.py:3456
 msgid ""
 "The hour of the day to send the report, in Eastern Standard Time (EST). This"
 " is required for all frequency settings."
 msgstr ""
 
-#: enterprise/models.py:3487
+#: enterprise/models.py:3464
 msgid ""
 "This password will be used to secure the zip file. It will be encrypted when"
 " stored in the database."
 msgstr ""
 
-#: enterprise/models.py:3494
+#: enterprise/models.py:3471
 msgid "SFTP Host name"
 msgstr ""
 
-#: enterprise/models.py:3495
+#: enterprise/models.py:3472
 msgid "If the delivery method is sftp, the host to deliver the report to."
 msgstr ""
 
-#: enterprise/models.py:3500
+#: enterprise/models.py:3477
 msgid "SFTP Port"
 msgstr ""
 
-#: enterprise/models.py:3501
+#: enterprise/models.py:3478
 msgid "If the delivery method is sftp, the port on the host to connect to."
 msgstr ""
 
-#: enterprise/models.py:3508
+#: enterprise/models.py:3485
 msgid "SFTP username"
 msgstr ""
 
-#: enterprise/models.py:3509
+#: enterprise/models.py:3486
 msgid ""
 "If the delivery method is sftp, the username to use to securely access the "
 "host."
 msgstr ""
 
-#: enterprise/models.py:3515
+#: enterprise/models.py:3492
 msgid ""
 "If the delivery method is sftp, the password to use to securely access the "
 "host. The password will be encrypted when stored in the database."
 msgstr ""
 
-#: enterprise/models.py:3522
+#: enterprise/models.py:3499
 msgid "SFTP file path"
 msgstr ""
 
-#: enterprise/models.py:3523
+#: enterprise/models.py:3500
 msgid ""
 "If the delivery method is sftp, the path on the host to deliver the report "
 "to."
 msgstr ""
 
-#: enterprise/models.py:3631
+#: enterprise/models.py:3608
 msgid "Delivery method cannot be updated"
 msgstr ""
 
-#: enterprise/models.py:3647
+#: enterprise/models.py:3624
 msgid "Day of week must be set if the frequency is weekly."
 msgstr ""
 
-#: enterprise/models.py:3651
+#: enterprise/models.py:3628
 msgid "Day of month must be set if the frequency is monthly."
 msgstr ""
 
-#: enterprise/models.py:3654
+#: enterprise/models.py:3631
 msgid "Frequency must be set to either daily, weekly, or monthly."
 msgstr ""
 
-#: enterprise/models.py:3660
+#: enterprise/models.py:3637
 msgid "Email(s) must be set if the delivery method is email."
 msgstr ""
 
-#: enterprise/models.py:3664
+#: enterprise/models.py:3641
 msgid "Decrypted password must be set if the delivery method is email."
 msgstr ""
 
-#: enterprise/models.py:3668
+#: enterprise/models.py:3645
 msgid "SFTP Hostname must be set if the delivery method is sftp."
 msgstr ""
 
-#: enterprise/models.py:3670
+#: enterprise/models.py:3647
 msgid "SFTP username must be set if the delivery method is sftp."
 msgstr ""
 
-#: enterprise/models.py:3672
+#: enterprise/models.py:3649
 msgid "SFTP File Path must be set if the delivery method is sftp."
 msgstr ""
 
-#: enterprise/models.py:3675
+#: enterprise/models.py:3652
 msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
 msgstr ""
 
-#: enterprise/models.py:3738
+#: enterprise/models.py:3715
 msgid ""
 "The EnterpriseCustomer for which the role is assigned to for the provided "
 "user. Defaults to the first active Enterprise Customer that the user is "
@@ -1643,281 +1649,281 @@ msgid ""
 "drop down."
 msgstr ""
 
-#: enterprise/models.py:4027
+#: enterprise/models.py:4004
 msgid "Filters to show banner notifications conditionally."
 msgstr ""
 
-#: enterprise/models.py:4032
+#: enterprise/models.py:4009
 msgid "Admin Notification Filter"
 msgstr ""
 
-#: enterprise/models.py:4033
+#: enterprise/models.py:4010
 msgid "Admin Notification Filters"
 msgstr ""
 
-#: enterprise/models.py:4059
+#: enterprise/models.py:4036
 msgid ""
 "Notification banner title which will appear to enterprise admin on admin "
 "portal."
 msgstr ""
 
-#: enterprise/models.py:4067
+#: enterprise/models.py:4044
 msgid ""
 "Notification banner text which will appear to enterprise admin on admin "
 "portal. You can enter maximum of 512 characters. This text support markdown."
 " See https://commonmark.org/help/ for the supported markdown features."
 msgstr ""
 
-#: enterprise/models.py:4084
+#: enterprise/models.py:4061
 msgid "Admin Notification"
 msgstr ""
 
-#: enterprise/models.py:4085
+#: enterprise/models.py:4062
 msgid "Admin Notifications"
 msgstr ""
 
-#: enterprise/models.py:4123
+#: enterprise/models.py:4100
 msgid "Admin Notification Read"
 msgstr ""
 
-#: enterprise/models.py:4124
+#: enterprise/models.py:4101
 msgid "Admin Notifications Read"
 msgstr ""
 
-#: enterprise/models.py:4157 enterprise/models.py:4261
-#: enterprise/models.py:4406
+#: enterprise/models.py:4134 enterprise/models.py:4238
+#: enterprise/models.py:4383
 msgid "The enterprise that can be linked using this key."
 msgstr ""
 
-#: enterprise/models.py:4166
+#: enterprise/models.py:4143
 msgid "The number of times this key can be used to link a learner."
 msgstr ""
 
-#: enterprise/models.py:4175
+#: enterprise/models.py:4152
 msgid "The key will no longer be valid after this date."
 msgstr ""
 
-#: enterprise/models.py:4184
+#: enterprise/models.py:4161
 msgid ""
 "Specifies if the key is active. Once deactivated, the key is no longer valid"
 " and cannot be reactivated."
 msgstr ""
 
-#: enterprise/models.py:4265
+#: enterprise/models.py:4242
 msgid "ChatGPT prompt."
 msgstr ""
 
-#: enterprise/models.py:4267
+#: enterprise/models.py:4244
 msgid "ChatGPT response."
 msgstr ""
 
-#: enterprise/models.py:4268
+#: enterprise/models.py:4245
 msgid "Prompt type."
 msgstr ""
 
-#: enterprise/models.py:4272
+#: enterprise/models.py:4249
 msgid "ChatGPT Response"
 msgstr ""
 
-#: enterprise/models.py:4273
+#: enterprise/models.py:4250
 msgid "ChatGPT Responses"
 msgstr ""
 
-#: enterprise/models.py:4383
+#: enterprise/models.py:4360
 msgid "Enterprise Customer SSO Configuration"
 msgstr ""
 
-#: enterprise/models.py:4384
+#: enterprise/models.py:4361
 msgid "Enterprise Customer SSO Configurations"
 msgstr ""
 
-#: enterprise/models.py:4393
+#: enterprise/models.py:4370
 msgid "The display name of the SSO configuration."
 msgstr ""
 
-#: enterprise/models.py:4415
+#: enterprise/models.py:4392
 msgid ""
 "Specifies whether the integration with the SSO orchestration is active."
 msgstr ""
 
-#: enterprise/models.py:4424
+#: enterprise/models.py:4401
 msgid "The identity provider integrated with by the SSO orchestrator ."
 msgstr ""
 
-#: enterprise/models.py:4433
+#: enterprise/models.py:4410
 msgid "The metadata url of the identity provider."
 msgstr ""
 
-#: enterprise/models.py:4441
+#: enterprise/models.py:4418
 msgid "The metadata xml of the identity provider."
 msgstr ""
 
-#: enterprise/models.py:4450
+#: enterprise/models.py:4427
 msgid "The entity id of the identity provider."
 msgstr ""
 
-#: enterprise/models.py:4459
+#: enterprise/models.py:4436
 msgid ""
 "Specifies whether the integration with the customer's identity provider "
 "should auto update metadata."
 msgstr ""
 
-#: enterprise/models.py:4513
+#: enterprise/models.py:4490
 msgid ""
 "The date and time when the configuration was submitted to the SSO "
 "orchestration."
 msgstr ""
 
-#: enterprise/models.py:4521
+#: enterprise/models.py:4498
 msgid ""
 "The date and time when the configuration was completed by the SSO "
 "orchestration."
 msgstr ""
 
-#: enterprise/models.py:4529
+#: enterprise/models.py:4506
 msgid ""
 "The date and time when the configuration was validated and used for the "
 "first time."
 msgstr ""
 
-#: enterprise/models.py:4537
+#: enterprise/models.py:4514
 msgid ""
 "The date and time when the orchestrator encountered an error during "
 "configuration."
 msgstr ""
 
-#: enterprise/models.py:4546
+#: enterprise/models.py:4523
 msgid ""
 "Whether admin has indicated the service provider metadata was uploaded."
 msgstr ""
 
-#: enterprise/models.py:4556 enterprise/models.py:4592
+#: enterprise/models.py:4533 enterprise/models.py:4569
 msgid ""
 "SAP specific configuration: the timeout interval for the OData API in "
 "seconds."
 msgstr ""
 
-#: enterprise/models.py:4566
+#: enterprise/models.py:4543
 msgid "SAP specific configuration: the root url of the OData API."
 msgstr ""
 
-#: enterprise/models.py:4575
+#: enterprise/models.py:4552
 msgid "SAP specific configuration: the company id of the OData API."
 msgstr ""
 
-#: enterprise/models.py:4584
+#: enterprise/models.py:4561
 msgid ""
 "SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
 "API."
 msgstr ""
 
-#: enterprise/models.py:4601
+#: enterprise/models.py:4578
 msgid ""
 "SAP specific configuration: the private key used to sign the SAML assertion."
 msgstr ""
 
-#: enterprise/models.py:4610
+#: enterprise/models.py:4587
 msgid "SAP specific configuration: the client id of the OData API."
 msgstr ""
 
-#: enterprise/models.py:4619
+#: enterprise/models.py:4596
 msgid "SAP specific configuration: the user id of the OAuth API."
 msgstr ""
 
-#: enterprise/models.py:4641
+#: enterprise/models.py:4618
 msgid "Field is locked as the configuration has already been submitted."
 msgstr ""
 
-#: enterprise/models.py:4679
+#: enterprise/models.py:4656
 msgid "Record has already been submitted for configuration."
 msgstr ""
 
-#: enterprise/models.py:4729
+#: enterprise/models.py:4706
 msgid "Specifies enterprise group name."
 msgstr ""
 
-#: enterprise/models.py:4744
+#: enterprise/models.py:4721
 msgid "The type of enterprise group"
 msgstr ""
 
-#: enterprise/models.py:4750
+#: enterprise/models.py:4727
 msgid "Enterprise Group"
 msgstr ""
 
-#: enterprise/models.py:4751
+#: enterprise/models.py:4728
 msgid "Enterprise Groups"
 msgstr ""
 
-#: enterprise/models.py:4864
+#: enterprise/models.py:4841
 msgid ""
 "The moment at which the membership record is written with an Enterprise "
 "Customer User record."
 msgstr ""
 
-#: enterprise/models.py:4874
+#: enterprise/models.py:4851
 msgid "Current status of the membership record"
 msgstr ""
 
-#: enterprise/models.py:4881
+#: enterprise/models.py:4858
 msgid ""
 "The moment at which the membership record was revoked by an Enterprise "
 "admin."
 msgstr ""
 
-#: enterprise/models.py:4889
+#: enterprise/models.py:4866
 msgid ""
 "The last time the membership action was in an error state. Null means the "
 "membership is not errored."
 msgstr ""
 
-#: enterprise/models.py:4894
+#: enterprise/models.py:4871
 msgid "Enterprise Group Membership"
 msgstr ""
 
-#: enterprise/models.py:4895
+#: enterprise/models.py:4872
 msgid "Enterprise Group Memberships"
 msgstr ""
 
-#: enterprise/models.py:4964
+#: enterprise/models.py:4941
 msgid "Title summarizing the onboarding flow."
 msgstr ""
 
-#: enterprise/models.py:4970
+#: enterprise/models.py:4947
 msgid ""
 "Specifies whether this flow is active and shown to admin users in the "
 "onboarding tour."
 msgstr ""
 
-#: enterprise/models.py:4989
+#: enterprise/models.py:4966
 msgid "The enterprise customer user who is an admin."
 msgstr ""
 
-#: enterprise/models.py:4994
+#: enterprise/models.py:4971
 msgid "The last time the admin logged into the admin portal."
 msgstr ""
 
-#: enterprise/models.py:4999
+#: enterprise/models.py:4976
 msgid "The onboarding flows that this admin has completed."
 msgstr ""
 
-#: enterprise/models.py:5003
+#: enterprise/models.py:4980
 msgid "Whether the admin has dismissed the onboarding tour."
 msgstr ""
 
-#: enterprise/models.py:5007
+#: enterprise/models.py:4984
 msgid "Whether the admin has completed the onboarding tour."
 msgstr ""
 
-#: enterprise/models.py:5012
+#: enterprise/models.py:4989
 msgid "Enterprise Customer Admin"
 msgstr ""
 
-#: enterprise/models.py:5013
+#: enterprise/models.py:4990
 msgid "Enterprise Customer Admins"
 msgstr ""
 
 #: enterprise/templates/enterprise/_data_sharing_decline_modal.html:7
-#: enterprise/views.py:1616 enterprise/views.py:2118
+#: enterprise/views.py:1612 enterprise/views.py:2114
 msgid "Close"
 msgstr ""
 
@@ -1991,114 +1997,114 @@ msgstr ""
 
 #: enterprise/templates/enterprise/enterprise_customer_login_page.html:44
 #: enterprise/templates/enterprise/enterprise_customer_select_form.html:50
-#: enterprise/views.py:372 enterprise/views.py:1612
+#: enterprise/views.py:372 enterprise/views.py:1608
 msgid "Continue"
 msgstr ""
 
-#: enterprise/utils.py:149
+#: enterprise/utils.py:148
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "both were."
 msgstr ""
 
-#: enterprise/utils.py:152
+#: enterprise/utils.py:151
 msgid "Error: Learners could not be added. Correct the following errors."
 msgstr ""
 
-#: enterprise/utils.py:154
+#: enterprise/utils.py:153
 #, python-brace-format
 msgid ""
 "Enrollment track {course_mode} is not available for course {course_id}."
 msgstr ""
 
-#: enterprise/utils.py:156
+#: enterprise/utils.py:155
 msgid "Select a course enrollment track for the given course(s)."
 msgstr ""
 
-#: enterprise/utils.py:158
+#: enterprise/utils.py:157
 #, python-brace-format
 msgid ""
 "Could not retrieve details for the course ID {course_id}. Specify a valid "
 "ID."
 msgstr ""
 
-#: enterprise/utils.py:161
+#: enterprise/utils.py:160
 msgid ""
 "Either \"CSV bulk upload\" or a singular course ID may be used for manual "
 "enrollments, but not both together."
 msgstr ""
 
-#: enterprise/utils.py:165
+#: enterprise/utils.py:164
 #, python-brace-format
 msgid "{argument} does not appear to be a valid email address."
 msgstr ""
 
-#: enterprise/utils.py:167
+#: enterprise/utils.py:166
 #, python-brace-format
 msgid ""
 "{argument} does not appear to be a valid email address or known username"
 msgstr ""
 
-#: enterprise/utils.py:170
+#: enterprise/utils.py:169
 #, python-brace-format
 msgid ""
 "Expected a CSV file with [{expected_columns}] columns, but found "
 "[{actual_columns}] columns instead."
 msgstr ""
 
-#: enterprise/utils.py:174
+#: enterprise/utils.py:173
 msgid "Reason field is required but was not filled."
 msgstr ""
 
-#: enterprise/utils.py:177
+#: enterprise/utils.py:176
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "neither were."
 msgstr ""
 
-#: enterprise/utils.py:180
+#: enterprise/utils.py:179
 #, python-brace-format
 msgid ""
 "User with email address {email} is already registered with Enterprise "
 "Customer {ec_name}"
 msgstr ""
 
-#: enterprise/utils.py:182
+#: enterprise/utils.py:181
 msgid "User is not linked with Enterprise Customer"
 msgstr ""
 
-#: enterprise/utils.py:183
+#: enterprise/utils.py:182
 #, python-brace-format
 msgid "User with email address {email} doesn't exist."
 msgstr ""
 
-#: enterprise/utils.py:184
+#: enterprise/utils.py:183
 #, python-brace-format
 msgid "Course ID {course_id} doesn't exist in Enterprise Customer's Catalog"
 msgstr ""
 
-#: enterprise/utils.py:186
+#: enterprise/utils.py:185
 #, python-brace-format
 msgid ""
 "Enterprise channel worker user with the username "
 "\"{channel_worker_username}\" was not found."
 msgstr ""
 
-#: enterprise/utils.py:189
+#: enterprise/utils.py:188
 msgid ""
 "Unable to parse CSV file. Please make sure it is a CSV 'utf-8' encoded file."
 msgstr ""
 
-#: enterprise/utils.py:192
+#: enterprise/utils.py:191
 msgid "Discount percentage should be from 0 to 100."
 msgstr ""
 
-#: enterprise/utils.py:402
+#: enterprise/utils.py:401
 #, python-brace-format
 msgid "You've been enrolled in {course_name}!"
 msgstr ""
 
-#: enterprise/utils.py:561 enterprise/utils.py:640
+#: enterprise/utils.py:560 enterprise/utils.py:639
 msgid "`user` must have one of either `email` or `user_email`."
 msgstr ""
 
@@ -2331,177 +2337,171 @@ msgstr ""
 msgid "Self-Paced"
 msgstr ""
 
-#: enterprise/views.py:1455
+#: enterprise/views.py:1451
 msgid "FREE"
 msgstr ""
 
-#: enterprise/views.py:1457
+#: enterprise/views.py:1453
 msgid "Not eligible for a certificate."
 msgstr ""
 
-#: enterprise/views.py:1459
+#: enterprise/views.py:1455
 msgid "Earn a verified certificate!"
 msgstr ""
 
-#: enterprise/views.py:1518
+#: enterprise/views.py:1514
 #, python-brace-format
 msgid "{num_weeks}, starting on {start_date} and ending at {end_date}"
 msgstr ""
 
-#: enterprise/views.py:1520 enterprise/views.py:1939
+#: enterprise/views.py:1516 enterprise/views.py:1935
 msgid "{} week"
 msgid_plural "{} weeks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: enterprise/views.py:1580
+#: enterprise/views.py:1576
 #, python-brace-format
 msgid ""
 "Discount provided by {strong_start}{enterprise_customer_name}{strong_end}"
 msgstr ""
 
-#: enterprise/views.py:1606 enterprise/views.py:1607
+#: enterprise/views.py:1602 enterprise/views.py:1603
 msgid "Confirm your course"
 msgstr ""
 
-#: enterprise/views.py:1609
+#: enterprise/views.py:1605
 msgid "View Course Details"
 msgstr ""
 
-#: enterprise/views.py:1610
+#: enterprise/views.py:1606
 msgid "Please select one:"
 msgstr ""
 
-#: enterprise/views.py:1611 enterprise/views.py:2112
+#: enterprise/views.py:1607 enterprise/views.py:2108
 msgid "Price"
 msgstr ""
 
-#: enterprise/views.py:1613 enterprise/views.py:2115
+#: enterprise/views.py:1609 enterprise/views.py:2111
 msgid "Level"
 msgstr ""
 
-#: enterprise/views.py:1614 enterprise/views.py:2114
+#: enterprise/views.py:1610 enterprise/views.py:2110
 msgid "Effort"
 msgstr ""
 
-#: enterprise/views.py:1615
+#: enterprise/views.py:1611
 msgid "Duration"
 msgstr ""
 
-#: enterprise/views.py:1617 enterprise/views.py:2104
+#: enterprise/views.py:1613 enterprise/views.py:2100
 msgid "What you'll learn"
 msgstr ""
 
-#: enterprise/views.py:1618 enterprise/views.py:2116
+#: enterprise/views.py:1614 enterprise/views.py:2112
 msgid "About This Course"
 msgstr ""
 
-#: enterprise/views.py:1619 enterprise/views.py:2117
+#: enterprise/views.py:1615 enterprise/views.py:2113
 msgid "Course Staff"
 msgstr ""
 
-#: enterprise/views.py:2056
+#: enterprise/views.py:2052
 #, python-brace-format
 msgid "{count} Course"
 msgid_plural "{count} Courses"
 msgstr[0] ""
 msgstr[1] ""
 
-#: enterprise/views.py:2063
+#: enterprise/views.py:2059
 msgid "{}-{} hours per week, per course"
 msgstr ""
 
-#: enterprise/views.py:2070
+#: enterprise/views.py:2066
 msgid "{}-{} weeks per course"
 msgstr ""
 
-#: enterprise/views.py:2077
+#: enterprise/views.py:2073
 msgid "Purchase all unenrolled courses"
 msgstr ""
 
-#: enterprise/views.py:2078
+#: enterprise/views.py:2074
 msgid "enrollment"
 msgstr ""
 
-#: enterprise/views.py:2080
+#: enterprise/views.py:2076
 msgid "Pursue the program"
 msgstr ""
 
-#: enterprise/views.py:2081
+#: enterprise/views.py:2077
 msgid "program enrollment"
 msgstr ""
 
-#: enterprise/views.py:2102
+#: enterprise/views.py:2098
 msgid "enrolled"
 msgstr ""
 
-#: enterprise/views.py:2103
+#: enterprise/views.py:2099
 msgid "already enrolled, must pay for certificate"
 msgstr ""
 
-#: enterprise/views.py:2106
+#: enterprise/views.py:2102
 msgid "Real Career Impact"
 msgstr ""
 
-#: enterprise/views.py:2108
+#: enterprise/views.py:2104
 msgid "See More"
 msgstr ""
 
-#: enterprise/views.py:2109
+#: enterprise/views.py:2105
 msgid "See Less"
 msgstr ""
 
-#: enterprise/views.py:2110
+#: enterprise/views.py:2106
 msgid "Confirm Program"
 msgstr ""
 
-#: enterprise/views.py:2111
+#: enterprise/views.py:2107
 msgid "Program Summary"
 msgstr ""
 
-#: enterprise/views.py:2113
+#: enterprise/views.py:2109
 msgid "Length"
 msgstr ""
 
-#: enterprise/views.py:2119
+#: enterprise/views.py:2115
 msgid "Program not eligible for one-click purchase."
 msgstr ""
 
-#: enterprise/views.py:2120
+#: enterprise/views.py:2116
 #, python-brace-format
 msgid "What is an {platform_name} {program_type}?"
 msgstr ""
 
-#: enterprise/views.py:2124
+#: enterprise/views.py:2120
 #, python-brace-format
 msgid "What is {platform_name}?"
 msgstr ""
 
-#: enterprise/views.py:2129
+#: enterprise/views.py:2125
 #, python-brace-format
 msgid "Presented by {organization}"
 msgstr ""
 
-#: enterprise/views.py:2130
+#: enterprise/views.py:2126
 #, python-brace-format
 msgid "Confirm your {item}"
 msgstr ""
 
-#: enterprise/views.py:2142
+#: enterprise/views.py:2138
 msgid "Credit- and Certificate-eligible"
 msgstr ""
 
-#: enterprise/views.py:2143
+#: enterprise/views.py:2139
 msgid "Self-paced; courses can be taken in any order"
 msgstr ""
 
-#: enterprise/views.py:2145
+#: enterprise/views.py:2141
 #, python-brace-format
 msgid "{purchase_action} for"
-msgstr ""
-
-#: enterprise_learner_portal/api/v1/serializers.py:40
-msgid ""
-"To use this EnterpriseCourseEnrollmentSerializer, this package must be "
-"installed in an Open edX environment."
 msgstr ""
